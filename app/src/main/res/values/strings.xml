@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">GA_and_GTM</string>
+
+    <string name="load_error">Error en GTM</string>
 </resources>

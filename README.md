@@ -27,6 +27,41 @@ Triggers from the container are evaluated and tags are fired accordingly. No tag
  
 
 
-[1]: https://support.google.com/tagmanager#topic=
+#Implementing Universal Analytics and Google Tag Manager SDK for android
 
-compose 
+Before beginnig   
+
+
+#Getting Started
+
+1. Go to [tagmanager-google.com][2] to create a Tag Manager account(or to access an existing account).
+2. When you logged-in to Google Tag Manager you'll see option's tab as follow below:
+
+<p align="center">
+    <img src="Screenshots/option_tabs_tagmanager.png" alt="trigger_types" width="30%"/>
+</p>
+
+
+##Aspects should be considered
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1]: https://support.google.com/tagmanager#topic=
+[2]: https://tagmanager.google.com/#/home
+[3]: https://developers.google.com/tag-manager/android/v4/ua#create-screen-name-var
+[4]: https://developers.google.com/tag-manager/android/v4/ua#create-screen-name-var
+[5]: https://developers.google.com/tag-manager/android/v4/ua#create-screen-name-var
+
