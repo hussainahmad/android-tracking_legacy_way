@@ -55,6 +55,7 @@ If we select this Android SDK version, we always download a json file for our pr
 ### Legacy Android
 If we select this Android SDK version, we can download a binary file necessary for the  
 'loadContainerPreferNonDefault' method of the Google Play Service SDK.
+See the code's snippet below:
 
 ```shell
 PendingResult<ContainerHolder> pending =
@@ -63,15 +64,6 @@ PendingResult<ContainerHolder> pending =
 ```
 
 For our case we'll be using the Legacy Android SDK version
-
-
-
-
-## Aspects should be considered
-
-
-
-
 
 
 
