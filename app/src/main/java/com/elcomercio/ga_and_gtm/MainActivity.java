@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onStart() {
         super.onStart();
-        TagManager.getInstance(this).getDataLayer().push(DataLayer.mapOf("Event","openScreen", "screenName", "SwipeActivity"));
+        TagManager.getInstance(this).getDataLayer().push(DataLayer.mapOf("event","openScreen", "screenName", "SwipeActivity"));
     }
 
     private void pushEventToDataLayer(String appName){
