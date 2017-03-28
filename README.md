@@ -8,15 +8,9 @@ All triggers are associated with a a event type.
 ##TRIGGER TYPE
 Actually there are 9 built-in Firebase automatic event types and 2 other event types.
 
-
-Inline-style: 
-![alt text](Screenshots/trigger_types.png "Logo Title Text 1")
-
-
 <p align="center">
-    <img src="Screenshots/trigger_types.png" alt="first_sample" width="50%"/>
+    <img src="Screenshots/trigger_types.png" alt="trigger_types" width="40%"/>
 </p>
-
 
 
 ##EVENT
