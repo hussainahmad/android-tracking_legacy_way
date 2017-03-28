@@ -1,4 +1,11 @@
+#Google Tag Manager for Android App's
 
+
+
+[Before we look at implementing GTM for android let's have a deeper look at official website][1]
+
+##TAG
+A tag is a piece of code that sends information to a third party, such as Google Analytics.
 
 ##TRIGGER
 A trigger is a condition that evaluates to either true or false at runtime. Triggers attached to a tag
@@ -19,5 +26,7 @@ Tag Manager has 4 built-in event types plus a custom event option.
 Triggers from the container are evaluated and tags are fired accordingly. No tag can be fired unless an event occurs.
  
 
+
+[1]: https://support.google.com/tagmanager#topic=
 
 compose 
