@@ -18,10 +18,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnTrackButton"
+        android:id="@+id/btnSwipe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TrackButton"/>
+        android:text="Go to SwipeActivity"/>
 
 
 </LinearLayout>

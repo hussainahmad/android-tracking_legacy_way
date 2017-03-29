@@ -1,11 +1,14 @@
 package com.elcomercio.ga_and_gtm;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import com.elcomercio.ga_and_gtm.swipe.SwipeActivity;
+import com.elcomercio.ga_and_gtm.util.TrackUtils;
 import com.google.android.gms.common.api.PendingResult;
 import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.tagmanager.Container;
@@ -20,17 +23,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private static String CONTAINER_ID = "GTM-TFVM352";
     private static int TIMEOUT_FOR_CONTAINER_OPEN_MILLISECONDS = 5;
 
-    private Button btnTrackButton;
+    private Button btnSwipe;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        btnTrackButton = (Button) findViewById(R.id.btnTrackButton);
+        btnSwipe = (Button) findViewById(R.id.btnSwipe);
 
         initGoogleTagManager();
 
-        btnTrackButton.setOnClickListener(this);
+        btnSwipe.setOnClickListener(this);
 
     }
 
@@ -84,8 +87,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.btnTrackButton:
-
+            case R.id.btnSwipe:
+                TrackUtils.pushEventAndVariableValuesToDataLayer(this, "Main", "Go SwipeActivity", "MainOrbisMobile", "MainActivity");
+                startActivity(new Intent(this, SwipeActivity.class));
                 break;
         }
     }
@@ -93,11 +97,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onStart() {
         super.onStart();
-        TagManager.getInstance(this).getDataLayer().push(DataLayer.mapOf("event","openScreen", "screenName", "SwipeActivity"));
+        TrackUtils.pushOpenScreenEventAndScreenNameToDataLayer1(this, "MainActivity");
     }
 
-    private void pushEventToDataLayer(String appName){
-        DataLayer dataLayer = TagManager.getInstance(this).getDataLayer();
-        dataLayer.pushEvent("App Name", DataLayer.mapOf("App Name", appName));
-    }
 }

@@ -68,9 +68,7 @@ For our case we'll be using the Legacy Android SDK version
 
 
 
-
-
-
+[For more information about category,action, label , value][4]
 
 
 
@@ -79,6 +77,5 @@ For our case we'll be using the Legacy Android SDK version
 [1]: https://support.google.com/tagmanager#topic=
 [2]: https://tagmanager.google.com/#/home
 [3]: https://developers.google.com/tag-manager/android/v4/ua#create-screen-name-var
-[4]: https://developers.google.com/tag-manager/android/v4/ua#create-screen-name-var
-[5]: https://developers.google.com/tag-manager/android/v4/ua#create-screen-name-var
+[4]: https://support.google.com/analytics/answer/6164470?hl=en
 
