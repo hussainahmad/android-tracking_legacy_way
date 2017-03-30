@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         PendingResult<ContainerHolder> pending =
                 tagManager.loadContainerPreferNonDefault(CONTAINER_ID,
-                        R.raw.your_own_binary);
+                        R.raw.orbismobiletracking_binarie);
 
         // The onResult method will be called as soon as one of the following happens:
         //     1. a saved container is loaded

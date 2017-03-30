@@ -106,22 +106,23 @@ On the left navigation bar, click `Tags` and should see:
 1. Select Universal Analytics like our `Tag type`.
 2. Enter the Tracking ID of our Google Analytics account.
 3. In `Track Type` comboBox we can select different options:
- * App View (for screen name, app views) 
+ * App View (for screen name, app views): this type of track can receive key-value pairs
+   the value is any of our variable defined.
     <p align="center">
         <img src="Screenshots/appview_tracktype_tag.png" alt="trigger_types" width="70%"/>
     </p>
  
- * Events (for clicks on button) 
+ * Event (for clicks on button): this type of track has some event tracking parameters
+    * Category : the context when the event happen
+    * Action: describe the action of the event
+    * Label: some additional information about the event
+    
     <p align="center">
          <img src="Screenshots/event_tracktype_tag.png" alt="trigger_types" width="70%"/>
      </p>
  
-
-<p align="center">
-    <img src="Screenshots/workspace_variables.png" alt="trigger_types" width="50%"/>
-</p>
-
-
+ 
+ 
 
 
 
