@@ -18,7 +18,7 @@ Triggers from the container are evaluated and tags are fired accordingly. No tag
 [For more information about category,action, label , value][3]
 
 
-Go to Mobile APIs and select 'GET STARTED FOR ANDROID' option and this redirect to [the official documentation for Android][2].
+Go to Mobile APIs and select `GET STARTED FOR ANDROID` option and this redirect to [the official documentation for Android][2].
 In this page we'll see by default the implementation of TagManager with Firebase, but for this sample project
 we'll see how to implement it by using Legacy way(orange rectangle), without Firebase.
 
@@ -26,6 +26,7 @@ we'll see how to implement it by using Legacy way(orange rectangle), without Fir
     <img src="Screenshots/new_account.png" alt="trigger_types" width="40%"/>
 </p>
 
+And Click `Android v4` option.
 
 ## Implementing Universal Analytics and Google Tag Manager SDK for android
 
@@ -43,7 +44,7 @@ we'll see how to implement it by using Legacy way(orange rectangle), without Fir
 3. Click new account and set up our container:
 
 <p align="center">
-    <img src="Screenshots/new_account.png" alt="trigger_types" width="40%"/>
+    <img src="Screenshots/documentation_firebase_legacy.png" alt="trigger_types" width="40%"/>
 </p>
 
 
@@ -69,6 +70,7 @@ For our case we'll be using the Legacy Android SDK version
     <img src="Screenshots/workspace_left_menu.png" alt="trigger_types" width="40%"/>
 </p>
 
+### Tracking App View 
 ### Variables
 1. On the left navigation bar, click 'Variables' and should see:
 
@@ -76,11 +78,20 @@ For our case we'll be using the Legacy Android SDK version
     <img src="Screenshots/workspace_variables.png" alt="trigger_types" width="40%"/>
 </p>
 
-There are Built-In Variables and User-Defined Variables, let's  
+There are Built-In Variables and User-Defined Variables, let's create the second one as follow below.
 
-## Adding 
+<p align="center">
+    <img src="Screenshots/screenName_variable.png" alt="trigger_types" width="40%"/>
+</p>
 
-### Trigger 
+
+### Trigger
+ On the left navigation bar, click 'Triggers' and should see: 
+
+<p align="center">
+    <img src="Screenshots/openScreenEvent_Trigger.png" alt="trigger_types" width="40%"/>
+</p>
+
 
 #### TRIGGER TYPE
 Actually there are 9 built-in Firebase automatic event types and 2 other event types.
