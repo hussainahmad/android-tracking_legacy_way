@@ -23,7 +23,7 @@ In this page we'll see by default the implementation of TagManager with Firebase
 we'll see how to implement it by using Legacy way(orange rectangle), without Firebase.
 
 <p align="center">
-    <img src="Screenshots/new_account.png" alt="trigger_types" width="40%"/>
+    <img src="Screenshots/documentation_firebase_legacy.png" alt="trigger_types" width="40%"/>
 </p>
 
 And Click `Android v4` option.
@@ -40,11 +40,10 @@ And Click `Android v4` option.
 </p>
 
 
-
 3. Click new account and set up our container:
 
 <p align="center">
-    <img src="Screenshots/documentation_firebase_legacy.png" alt="trigger_types" width="40%"/>
+    <img src="Screenshots/new_account.png" alt="trigger_types" width="40%"/>
 </p>
 
 
