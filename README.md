@@ -1,11 +1,6 @@
 # Google Tag Manager for Android App's
 [Before we look at implementing GTM for developers let's have a deeper look at official website][1]
 
-Go to Mobile APIs and select 'GET STARTED FOR ANDROID' option and this redirect to [the official documentation for Android][2]
-In this page we'll see by default the implementation of TagManager with Firebase, but for this sample project
-we'll see how to implement it using Legacy way, without Firebase.
-
-
 ## Before beginning a few concepts you should know 
 #### TAG
 A tag is a piece of code that sends information to a third party, such as Google Analytics.
@@ -15,14 +10,6 @@ A trigger is a condition that evaluates to either true or false at runtime. Trig
 govern when the tag is fired or not fired.
 All triggers are associated with a a event type.
 
-#### TRIGGER TYPE
-Actually there are 9 built-in Firebase automatic event types and 2 other event types.
-
-<p align="center">
-    <img src="Screenshots/trigger_types.png" alt="trigger_types" width="40%"/>
-</p>
-
-
 #### EVENT
 An event can be a pageview, a click on a button, a form submmission or any custom event that you define.
 Tag Manager has 4 built-in event types plus a custom event option.
@@ -31,10 +18,16 @@ Triggers from the container are evaluated and tags are fired accordingly. No tag
 [For more information about category,action, label , value][3]
 
 
-# Implementing Universal Analytics and Google Tag Manager SDK for android
+Go to Mobile APIs and select 'GET STARTED FOR ANDROID' option and this redirect to [the official documentation for Android][2].
+In this page we'll see by default the implementation of TagManager with Firebase, but for this sample project
+we'll see how to implement it by using Legacy way(orange rectangle), without Firebase.
 
-Before beginnig   
+<p align="center">
+    <img src="Screenshots/new_account.png" alt="trigger_types" width="40%"/>
+</p>
 
+
+## Implementing Universal Analytics and Google Tag Manager SDK for android
 
 # Getting Started
 
@@ -76,6 +69,7 @@ For our case we'll be using the Legacy Android SDK version
     <img src="Screenshots/workspace_left_menu.png" alt="trigger_types" width="40%"/>
 </p>
 
+### Variables
 1. On the left navigation bar, click 'Variables' and should see:
 
 <p align="center">
@@ -84,11 +78,16 @@ For our case we'll be using the Legacy Android SDK version
 
 There are Built-In Variables and User-Defined Variables, let's  
 
-
-
-
 ## Adding 
 
+### Trigger 
+
+#### TRIGGER TYPE
+Actually there are 9 built-in Firebase automatic event types and 2 other event types.
+
+<p align="center">
+    <img src="Screenshots/trigger_types.png" alt="trigger_types" width="40%"/>
+</p>
 
 
 
