@@ -61,7 +61,7 @@ public class SwipeActivity extends AppCompatActivity {
                 lastVisibleItem = layoutManager.findLastVisibleItemPosition();
                 if (totalItemCount <= (lastVisibleItem + visibleThreshold )) {
                     if (!setLoading) {
-                        TrackUtils.pushEventAndVariableValuesToDataLayer(SwipeActivity.this, "Swipe","NextPagination","pagination_" + page, "SwipeActivity");
+                        TrackUtils.pushEventAndVariableValuesToDataLayer(SwipeActivity.this, "Swipe","NextPagination","pagination_" + page);
                         setLoading = true;
                         requestMoreData = new RequestMoreData();
                         requestMoreData.execute();

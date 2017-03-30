@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/android-tracking_legacy_way.iml" filepath="$PROJECT_DIR$/android-tracking_legacy_way.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/tracking_ga_gtm.iml" filepath="$PROJECT_DIR$/tracking_ga_gtm.iml" />
     </modules>

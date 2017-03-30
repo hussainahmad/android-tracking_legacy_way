@@ -20,10 +20,10 @@ public class TrackUtils {
 
     public static void pushOpenScreenEventAndScreenNameToDataLayer2(Context context, String screenName){
         DataLayer dataLayer = TagManager.getInstance(context).getDataLayer();
-        dataLayer.pushEvent("openScreen", DataLayer.mapOf(screenName, screenName));
+        dataLayer.pushEvent("openScreen", DataLayer.mapOf("screenName", screenName));
     }
 
-    public static void pushEventAndVariableValuesToDataLayer(Context context, String categoryName, String actionName, String labelName, String screenName){
+    /*public static void pushEventAndVariableValuesToDataLayer(Context context, String categoryName, String actionName, String labelName){
         DataLayer dataLayer = TagManager.getInstance(context).getDataLayer();
         dataLayer.pushEvent("clickButton",
                 DataLayer.mapOf(
@@ -31,6 +31,15 @@ public class TrackUtils {
                         "buttonActionName",actionName,
                         "buttonLabelName",labelName,
                         "screenName",screenName));
+    }*/
+
+    public static void pushEventAndVariableValuesToDataLayer(Context context, String categoryName, String actionName, String labelName){
+        DataLayer dataLayer = TagManager.getInstance(context).getDataLayer();
+        dataLayer.pushEvent("clickButton",
+                DataLayer.mapOf(
+                        "buttonCategoryName",categoryName,
+                        "buttonActionName",actionName,
+                        "buttonLabelName",labelName));
     }
 
 }

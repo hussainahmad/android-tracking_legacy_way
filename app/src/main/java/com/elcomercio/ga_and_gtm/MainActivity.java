@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btnSwipe:
-                TrackUtils.pushEventAndVariableValuesToDataLayer(this, "Main", "Go SwipeActivity", "MainOrbisMobile", "MainActivity");
+                TrackUtils.pushEventAndVariableValuesToDataLayer(this, "Main", "Go SwipeActivity", "MainOrbisMobile");
                 startActivity(new Intent(this, SwipeActivity.class));
                 break;
         }
