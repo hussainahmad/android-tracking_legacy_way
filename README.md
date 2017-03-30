@@ -108,7 +108,7 @@ On the left navigation bar, click `Tags` and should see:
 3. In `Track Type` comboBox we can select different options:
  * App View (for screen name, app views) 
     <p align="center">
-        <img src="Screenshots/app_tracktype_tag.png" alt="trigger_types" width="40%"/>
+        <img src="Screenshots/appview_tracktype_tag.png" alt="trigger_types" width="40%"/>
     </p>
  
  * Events (for clicks on button) 
