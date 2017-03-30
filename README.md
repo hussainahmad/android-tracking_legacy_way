@@ -78,11 +78,10 @@ On the left navigation bar, click `Variables` and should see:
 </p>
 
 There are Built-In Variables and User-Defined Variables, let's create the second one as follow below.
-
+For our example let's create 4 variables, buttonCategoryName, buttonActionName, buttonLabelName and screenName.
 <p align="center">
     <img src="Screenshots/screenName_variable.png" alt="trigger_types" width="50%"/>
 </p>
-
 
 ### Trigger
  On the left navigation bar, click `Triggers` and should see: 
@@ -112,18 +111,17 @@ On the left navigation bar, click `Tags` and should see:
         <img src="Screenshots/appview_tracktype_tag.png" alt="trigger_types" width="70%"/>
     </p>
  
- * Event (for clicks on button): this type of track has some event tracking parameters
+ * Event (for clicks on button): this type of track has some event tracking parameters, and some key-value pairs
+   as AppView Track Type.
     * Category : the context when the event happen
     * Action: describe the action of the event
     * Label: some additional information about the event
     
     <p align="center">
          <img src="Screenshots/event_tracktype_tag.png" alt="trigger_types" width="70%"/>
-     </p>
+    </p>
  
  
- 
-
 
 
 [1]: https://developers.google.com/tag-manager/
