@@ -71,24 +71,24 @@ For our case we'll be using the Legacy Android SDK version
 
 ### Tracking App View 
 ### Variables
-1. On the left navigation bar, click 'Variables' and should see:
+On the left navigation bar, click `Variables` and should see:
 
 <p align="center">
-    <img src="Screenshots/workspace_variables.png" alt="trigger_types" width="40%"/>
+    <img src="Screenshots/workspace_variables.png" alt="trigger_types" width="50%"/>
 </p>
 
 There are Built-In Variables and User-Defined Variables, let's create the second one as follow below.
 
 <p align="center">
-    <img src="Screenshots/screenName_variable.png" alt="trigger_types" width="40%"/>
+    <img src="Screenshots/screenName_variable.png" alt="trigger_types" width="50%"/>
 </p>
 
 
 ### Trigger
- On the left navigation bar, click 'Triggers' and should see: 
+ On the left navigation bar, click `Triggers` and should see: 
 
 <p align="center">
-    <img src="Screenshots/openScreenEvent_Trigger.png" alt="trigger_types" width="40%"/>
+    <img src="Screenshots/openScreenEvent_Trigger.png" alt="trigger_types" width="50%"/>
 </p>
 
 
@@ -98,6 +98,18 @@ Actually there are 9 built-in Firebase automatic event types and 2 other event t
 <p align="center">
     <img src="Screenshots/trigger_types.png" alt="trigger_types" width="40%"/>
 </p>
+
+
+### Tags
+On the left navigation bar, click `Tags` and should see:
+
+<p align="center">
+    <img src="Screenshots/workspace_variables.png" alt="trigger_types" width="50%"/>
+</p>
+
+
+
+
 
 
 
