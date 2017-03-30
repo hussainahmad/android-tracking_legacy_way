@@ -116,7 +116,6 @@ On the left navigation bar, click `Tags` and should see:
          <img src="Screenshots/event_tracktype_tag.png" alt="trigger_types" width="70%"/>
      </p>
  
-4. 
 
 <p align="center">
     <img src="Screenshots/workspace_variables.png" alt="trigger_types" width="50%"/>
