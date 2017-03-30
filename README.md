@@ -1,17 +1,21 @@
 # Google Tag Manager for Android App's
+[Before we look at implementing GTM for developers let's have a deeper look at official website][1]
+
+Go to Mobile APIs and select 'GET STARTED FOR ANDROID' option and this redirect to [the official documentation for Android][2]
+In this page we'll see by default the implementation of TagManager with Firebase, but for this sample project
+we'll see how to implement it using Legacy way, without Firebase.
 
 
-[Before we look at implementing GTM for android let's have a deeper look at official website][1]
-
-## TAG
+## Before beginning a few concepts you should know 
+#### TAG
 A tag is a piece of code that sends information to a third party, such as Google Analytics.
 
-## TRIGGER
+#### TRIGGER
 A trigger is a condition that evaluates to either true or false at runtime. Triggers attached to a tag
 govern when the tag is fired or not fired.
 All triggers are associated with a a event type.
 
-## TRIGGER TYPE
+#### TRIGGER TYPE
 Actually there are 9 built-in Firebase automatic event types and 2 other event types.
 
 <p align="center">
@@ -19,11 +23,12 @@ Actually there are 9 built-in Firebase automatic event types and 2 other event t
 </p>
 
 
-## EVENT
+#### EVENT
 An event can be a pageview, a click on a button, a form submmission or any custom event that you define.
 Tag Manager has 4 built-in event types plus a custom event option.
 Triggers from the container are evaluated and tags are fired accordingly. No tag can be fired unless an event occurs.
  
+[For more information about category,action, label , value][3]
 
 
 # Implementing Universal Analytics and Google Tag Manager SDK for android
@@ -65,17 +70,36 @@ PendingResult<ContainerHolder> pending =
 
 For our case we'll be using the Legacy Android SDK version
 
+# Configuring GoogleTagManager Web Interface 
+
+<p align="center">
+    <img src="Screenshots/workspace_left_menu.png" alt="trigger_types" width="40%"/>
+</p>
+
+1. On the left navigation bar, click 'Variables' and should see:
+
+<p align="center">
+    <img src="Screenshots/workspace_variables.png" alt="trigger_types" width="40%"/>
+</p>
+
+There are Built-In Variables and User-Defined Variables, let's  
 
 
 
-[For more information about category,action, label , value][4]
+
+## Adding 
 
 
 
 
 
-[1]: https://support.google.com/tagmanager#topic=
-[2]: https://tagmanager.google.com/#/home
-[3]: https://developers.google.com/tag-manager/android/v4/ua#create-screen-name-var
-[4]: https://support.google.com/analytics/answer/6164470?hl=en
+
+
+
+[1]: https://developers.google.com/tag-manager/
+[2]: https://developers.google.com/tag-manager/android/v5/
+[3]: https://support.google.com/tagmanager#topic=
+[4]: https://tagmanager.google.com/#/home
+[5]: https://developers.google.com/tag-manager/android/v4/ua#create-screen-name-var
+[6]: https://support.google.com/analytics/answer/6164470?hl=en
 
