@@ -103,15 +103,24 @@ Actually there are 9 built-in Firebase automatic event types and 2 other event t
 ### Tags
 On the left navigation bar, click `Tags` and should see:
 
+1. Select Universal Analytics like our `Tag type`.
+2. Enter the Tracking ID of our Google Analytics account.
+3. In `Track Type` comboBox we can select different options:
+ * App View (for screen name, app views) 
+    <p align="center">
+        <img src="Screenshots/app_tracktype_tag.png" alt="trigger_types" width="40%"/>
+    </p>
+ 
+ * Events (for clicks on button) 
+    <p align="center">
+         <img src="Screenshots/event_tracktype_tag.png" alt="trigger_types" width="40%"/>
+     </p>
+ 
+4. 
+
 <p align="center">
     <img src="Screenshots/workspace_variables.png" alt="trigger_types" width="50%"/>
 </p>
-
-
-
-
-
-
 
 
 
